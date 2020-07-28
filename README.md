@@ -68,16 +68,29 @@ com.wawa.platform.reference.api.ReferenceApiAutoConfiguration
 
 | Project Name         | Version       |  Project URL  |   
 |:---------------------|:--------------|:--------------------------------------------------------|      
-|  Core APAAS API Starter          |    0.0.1-SNAPSHOT        | [core-apaas-api-starter](https://github.com/wawa/core-apaas-app-starters/tree/master/core-apaas-api-starter) |
-|  Core APAAS Event Publisher Starter          |    0.0.1-SNAPSHOT        | [core-apaas-event-publisher-starter](https://github.com/wawa/core-apaas-app-starters/tree/master/core-apaas-event-publisher-starter) |
-|  Core APAAS Event Subscriber Starter          |    0.0.1-SNAPSHOT        | [core-apaas-event-publisher-starter](https://github.com/wawa/core-apaas-app-starters/tree/master/core-apaas-event-subscriber-starter) |
+|  spring-boot-starter-parent  |  2.2.2.RELEASE   |   [spring-boot-starter-parent](https://github.com/wawa/reference-domain-service/blob/master/pom.xml)  |
+|  spring-cloud-dependencies |  Hoxton.RELEASE |  [spring-boot-starter-data-mongodb](https://github.com/wawa/reference-domain-service/blob/master/pom.xml) |
+| reference-event |  0.0.1-SNAPSHOT     | [reference-event](https://github.com/wawa/reference-domain-service/blob/master/db/pom.xml) |
+| reference-api |  0.0.1-SNAPSHOT   |  [reference-api](https://github.com/wawa/reference-domain-service/blob/master/db/pom.xml)  |
+| reference-api-client |   0.0.1-SNAPSHOT  |  [reference-api-client](https://github.com/wawa/reference-domain-service/blob/master/db/pom.xml)  |
+| reference-db  |  0.0.1-SNAPSHOT    |   [ reference-db ](https://github.com/wawa/reference-domain-service/blob/master/pom.xml)  | 
+|  reference-domain  |   0.0.1-SNAPSHOT     |   [ reference-domain](https://github.com/wawa/reference-domain-service/blob/master/pom.xml)  | 
+|  reference-exception |    0.0.1-SNAPSHOT      |   [ reference-exception](https://github.com/wawa/reference-domain-service/blob/master/pom.xml)  |
+| avro-maven-plugin  |  1.9.2 |   [avro-maven-plugin](https://github.com/wawa/reference-domain-service/blob/master/pom.xml)  |
+|  Embedded postgresql|  2.10   |  [Embedded postgresql](https://github.com/wawa/reference-domain-service/blob/master/pom.xml) |
+| Core APAAS API Starter |  0.0.1-SNAPSHOT |[ Core APAAS API Starter](https://github.com/wawa/core-apaas-app-starters/tree/master/core-apaas-api-starter)|
+| Core APAAS Event Publisher Starter|  0.0.1-SNAPSHOT  |[Core APAAS Event Publisher Starter](https://github.com/wawa/core-apaas-app-starters/tree/master/core-apaas-event-publisher-starter)|
+| Core APAAS Event Subscriber Starter |  0.0.1-SNAPSHOT  | [Core APAAS Event Subscriber Starter](https://github.com/wawa/core-apaas-app-starters/tree/master/core-apaas-event-subscriber-starter) |
+
 
 ### Infrastructure
 
+
 |Software              | Version       | Comment(s)  |   
 |:---------------------|:--------------|:--------------------------------------------------------|      
-|  Database XX         |    XX+        |    Database server |
-|  Message Bus XX      |    XX+        |    Message bus for inter service communication |
+|  Mongodb          |    0.0.1-SNAPSHOT  |    NoSQL Database  |
+|  PostgreSQL       |     0.0.1-SNAPSHOT |   Relational database management system  |
+
 
 ## 3. Environment Variables
 
@@ -100,8 +113,11 @@ com.wawa.platform.reference.api.ReferenceApiAutoConfiguration
 ## 5. Events Produced And Events Consumed
 | Event               |  Event Schema          |  Description           |
 |:--------------------|------------------------|------------------------|
-|  Service XX         | [SchemaA](schemas/schema.avro)  | BLAH  |
-|  Service XX         | [SchemaA](schemas/schema.avro)  | BLAH  |
+| AggregateCancelledEvent        | [AggregateCancelledEvent ](https://github.com/wawa/reference-domain-service/blob/master/event/src/main/avro/aggregate-cancelled-event.avsc)  | Event schema for  AggregateCancelledEvent |
+|  AggregateCreatedEvent        | [AggregateCreatedEvent](https://github.com/wawa/reference-domain-service/blob/master/event/src/main/avro/aggregate-created-event.avsc)  | Event schema for  AggregateCreatedEvent  |
+|AggregateNameUpdatedEvent  | [AggregateNameUpdatedEvent](https://github.com/wawa/reference-domain-service/blob/master/event/src/main/avro/aggregate-name-updated-event.avsc) | Event schema for AggregateNameUpdatedEvent |
+|  SomeOtherAggregateEvent|  [SomeOtherAggregateEvent](https://github.com/wawa/reference-domain-service/blob/master/event/src/main/avro/some-other-aggregate-event.avsc) | Event schema for SomeOtherAggregateEvent |
+
 
 ## 6. Logging
 
