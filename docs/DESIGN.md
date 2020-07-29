@@ -9,7 +9,7 @@
 ## 1. UML Diagrams
 ### Entity Relationship Diagram
 
-<img src="images/domain.PNG" width="650" height="400"/>
+<img src="images/domain.PNG" width="500" height="400"/>
 
 ### Entity State Machine Diagram
 
