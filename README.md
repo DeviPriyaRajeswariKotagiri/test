@@ -90,6 +90,7 @@ com.wawa.platform.reference.api.ReferenceApiAutoConfiguration
 |:---------------------|:--------------|:--------------------------------------------------------|      
 |  Mongodb          |    0.0.1-SNAPSHOT  |    NoSQL Database  |
 |  PostgreSQL       |     0.0.1-SNAPSHOT |   Relational database management system  |
+|  Kubernetes       |     v1.x |    Application deployment  |
 
 
 ## 3. Environment Variables
@@ -120,8 +121,8 @@ com.wawa.platform.reference.api.ReferenceApiAutoConfiguration
 
 
 ## 6. Logging
-
- This section should have critical logging messages that can be used to understand the health of this component or aid in the debugging of the component
+Java Logging API is provided by Simple Logging Facade(SLF4J) 
+This section should have critical logging messages that can be used to understand the health of this component or aid in the debugging of the component
 
 *[Logging Standard](https://wawaappdev.atlassian.net/wiki/spaces/ENTERPRISE/pages/337412190/ST9.1-+Logging+Standard)*
 
@@ -157,8 +158,15 @@ helm upgrade $appname . --install --recreate-pods --namespace $namespace --versi
 
 ## 9. Testing Instructions 
 ### Unit test cases
-There are multiple unit test cases written to cover the different components of the application. However there is a global application test suite file _**UnitTests.java**_     that combines all the test cases in a logical manner to create a complete suite. It can be run from command prompt using the following command -
+There are multiple unit test cases written to cover the different components of the application. However there is a global application test suite file _**UnitTests.java**_     that combines all the test cases in a logical manner to create a complete suite.We can also use mocking frameworks like mockito for effective unit testing of JAVA applications. It can be run from command prompt using the following command -
 
+Run all tests in a class
 ```
-mvn clean test
+mvn clean test -Dtest=xxxxTest
+```
+
+
+Run an individual test
+```
+mvn clean test -Dtest=xxxxTest#testA
 ```
