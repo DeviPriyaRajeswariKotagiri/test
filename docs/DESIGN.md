@@ -9,7 +9,7 @@
 ## 1. UML Diagrams
 ### Entity Relationship Diagram
 
-![your-UML-diagram-name](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/DeviPriyaRajeswariKotagiri/Testing/master/docs/puml/class-diagram-01.puml)
+<img src="docs/images/domain.PNG" width="400" height="400"/>
 
 ### Entity State Machine Diagram
 
