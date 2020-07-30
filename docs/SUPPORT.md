@@ -11,9 +11,9 @@ One of the ways to check Deployment status is via kubectl or CodeFresh .
 Steps involved in Deploying an application in local docker-kubernetes environment
 1. Package the code -> Go to the project location where project exist and open CLI:
          
-           ```
-           mvn clean package
-           ```
+```
+mvn clean package
+```
             
 2. Build the docker image using below command:
 
