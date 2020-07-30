@@ -81,6 +81,9 @@ com.wawa.platform.reference.api.ReferenceApiAutoConfiguration
 | Core APAAS API Starter |  0.0.1-SNAPSHOT |[ Core APAAS API Starter](https://github.com/wawa/core-apaas-app-starters/tree/master/core-apaas-api-starter)|
 | Core APAAS Event Publisher Starter|  0.0.1-SNAPSHOT  |[Core APAAS Event Publisher Starter](https://github.com/wawa/core-apaas-app-starters/tree/master/core-apaas-event-publisher-starter)|
 | Core APAAS Event Subscriber Starter |  0.0.1-SNAPSHOT  | [Core APAAS Event Subscriber Starter](https://github.com/wawa/core-apaas-app-starters/tree/master/core-apaas-event-subscriber-starter) |
+|spring-boot-starter-data-mongodb |2.2.2.RELEASE |[spring-boot-starter-data-mongodb](https://github.com/wawa/reference-domain-service/blob/master/db/pom.xml)|
+| postgresql|42.2.8|[postgresql](https://github.com/wawa/reference-domain-service/blob/master/db/pom.xml)|
+| mongodb-driver-core| 3.11.2 | [mongodb-driver-core](https://github.com/wawa/reference-domain-service/blob/master/db/pom.xml)|
 
 
 ### Infrastructure
@@ -88,9 +91,10 @@ com.wawa.platform.reference.api.ReferenceApiAutoConfiguration
 
 |Software              | Version       | Comment(s)  |   
 |:---------------------|:--------------|:--------------------------------------------------------|      
-|  Mongodb          |    0.0.1-SNAPSHOT  |    NoSQL Database  |
-|  PostgreSQL       |     0.0.1-SNAPSHOT |   Relational database management system  |
-|  Kubernetes       |     v1.x |    Application deployment  |
+|  Mongodb          |  4.2.8    |    NoSQL Database  |
+|  PostgreSQL       |  12.3  |   Relational database management system  |
+| Docker Desktop | 2.2.0.0| Docker Desktop and enable Kubernetes|
+
 
 
 ## 3. Environment Variables
