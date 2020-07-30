@@ -78,12 +78,13 @@ com.wawa.platform.reference.api.ReferenceApiAutoConfiguration
 |  reference-exception |    0.0.1-SNAPSHOT      |   [ reference-exception](https://github.com/wawa/reference-domain-service/blob/master/pom.xml)  |
 | avro-maven-plugin  |  1.9.2 |   [avro-maven-plugin](https://github.com/wawa/reference-domain-service/blob/master/pom.xml)  |
 |  Embedded postgresql|  2.10   |  [Embedded postgresql](https://github.com/wawa/reference-domain-service/blob/master/pom.xml) |
+| mongodb-driver-core| 3.11.2 | [mongodb-driver-core](https://github.com/wawa/reference-domain-service/blob/master/db/pom.xml)|
 | Core APAAS API Starter |  0.0.1-SNAPSHOT |[ Core APAAS API Starter](https://github.com/wawa/core-apaas-app-starters/tree/master/core-apaas-api-starter)|
 | Core APAAS Event Publisher Starter|  0.0.1-SNAPSHOT  |[Core APAAS Event Publisher Starter](https://github.com/wawa/core-apaas-app-starters/tree/master/core-apaas-event-publisher-starter)|
 | Core APAAS Event Subscriber Starter |  0.0.1-SNAPSHOT  | [Core APAAS Event Subscriber Starter](https://github.com/wawa/core-apaas-app-starters/tree/master/core-apaas-event-subscriber-starter) |
 |spring-boot-starter-data-mongodb |2.2.2.RELEASE |[spring-boot-starter-data-mongodb](https://github.com/wawa/reference-domain-service/blob/master/db/pom.xml)|
 | postgresql|42.2.8|[PostgreSQL JDBC Driver ](https://github.com/wawa/reference-domain-service/blob/master/db/pom.xml)|
-| mongodb-driver-core| 3.11.2 | [mongodb-driver-core](https://github.com/wawa/reference-domain-service/blob/master/db/pom.xml)|
+
 
 
 ### Infrastructure
