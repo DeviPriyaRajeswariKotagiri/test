@@ -17,16 +17,21 @@ mvn clean package
             
 2. Build the docker image using below command:
 
+```
+ docker build -t reference-domain-service:v1 -f Dockerfile-local .
+```      
 
-         docker build -t reference-domain-service:v1 -f Dockerfile-local .
-         
 3. Install the application in kubernetes environment using helm install command:
 
-         helm install --name reference-domain-service ./reference-domain-service --values ./reference-domain-service/values-local.yaml --namespace enterprise
+```
+helm install --name reference-domain-service ./reference-domain-service --values ./reference-domain-service/values-local.yaml --namespace enterprise
+```
 
 4. Using below command developer can see the application status:
-         
-            $ kubectl get pods -A
+
+```         
+$ kubectl get pods -A
+```
    
    
 ## 2. Health Statistics
@@ -35,8 +40,10 @@ One of the way to view Health Statistics of your application is by adding Spring
 ## 3. How to view Logs
 Developer can see the application logs using below commands:
 
-      kubectl logs reference-domain-service-c5f5b7cfc-lwrmf -c reference-domain-service -n enterprise
-   
+```
+kubectl logs reference-domain-service-c5f5b7cfc-lwrmf -c reference-domain-service -n enterprise
+```
+
 ## 4. FAQ
 
 ### Question 1
