@@ -133,4 +133,4 @@ These files generate class files at compile time using the following plugin:
 ## 4. References
 | Link | Description | 
 | :---- | :----------- |
-| [UML Component Design](https://wawaappdev.atlassian.net/wiki/spaces/ENTERPRISE/pages/586843021/ABB+-+Business+Service) |  Confluence page|
+| [ABB - Business Service](https://wawaappdev.atlassian.net/wiki/spaces/ENTERPRISE/pages/586843021/ABB+-+Business+Service) |  Confluence page|
