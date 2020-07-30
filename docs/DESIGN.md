@@ -13,7 +13,8 @@
 
 ### Entity State Machine Diagram
 
-![your-UML-diagram-name](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/DeviPriyaRajeswariKotagiri/Testing/master/docs/puml/state-diagram-01.puml)
+<img src="images/statediagram.PNG" width="350" height="350"/>
+
 ## 2. Dependent Downstream Services
 Describe the dependent services in your application.
 
