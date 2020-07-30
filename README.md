@@ -82,7 +82,7 @@ com.wawa.platform.reference.api.ReferenceApiAutoConfiguration
 | Core APAAS Event Publisher Starter|  0.0.1-SNAPSHOT  |[Core APAAS Event Publisher Starter](https://github.com/wawa/core-apaas-app-starters/tree/master/core-apaas-event-publisher-starter)|
 | Core APAAS Event Subscriber Starter |  0.0.1-SNAPSHOT  | [Core APAAS Event Subscriber Starter](https://github.com/wawa/core-apaas-app-starters/tree/master/core-apaas-event-subscriber-starter) |
 |spring-boot-starter-data-mongodb |2.2.2.RELEASE |[spring-boot-starter-data-mongodb](https://github.com/wawa/reference-domain-service/blob/master/db/pom.xml)|
-| postgresql|42.2.8|[postgresql](https://github.com/wawa/reference-domain-service/blob/master/db/pom.xml)|
+| postgresql|42.2.8|[PostgreSQL JDBC Driver ](https://github.com/wawa/reference-domain-service/blob/master/db/pom.xml)|
 | mongodb-driver-core| 3.11.2 | [mongodb-driver-core](https://github.com/wawa/reference-domain-service/blob/master/db/pom.xml)|
 
 
